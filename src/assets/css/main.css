@@ -1,0 +1,88 @@
+
+[v-cloak] {
+    display: none;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #F0F2F5;
+    margin-bottom: 60px;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+
+/* modal*/
+.modal-content {
+    border-radius: 14px !important;
+}
+.modal-header {
+    /*padding: 2rem 2rem 1rem 2rem;*/
+    border: 0;
+}
+.modal-footer {
+    /*padding: 1rem 2rem 2rem 2rem;*/
+    border: 0;
+}
+
+.btn-success,
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+    color: #212529;
+}
+/* Tab 設定 */
+#Vue_Div ul.nav .nav-item .nav-link:hover {
+    color: #28a745;
+}
+
+#Vue_Div .nav-link:not(:disabled):not(.disabled),
+#Vue_Div .nav-link:not(:disabled):not(.disabled),
+#Vue_Div > .nav-link.dropdown-toggle {
+    color: #28a745;
+}
+#Vue_Div .nav-link:not(:disabled):not(.disabled).active,
+#Vue_Div .nav-link:not(:disabled):not(.disabled):active,
+#Vue_Div .show > .nav-link.dropdown-toggle {
+    color: #212529;
+}
+/* table */
+.table {
+    background-color: #fff;
+}
+.table td {
+    text-align:left;
+}
+
+.no-checkbox td:last-child {
+    width: 3%;
+}
+.has-checkbox td:first-child,
+.has-checkbox td:last-child {
+    width: 3%;
+}
+.table td.is-finished {
+    text-decoration: line-through;
+}
+
+/* foot */
+.footTool {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.875rem;
+}
+.clear-all-btn {
+    color: #28a745;
+    cursor: pointer;
+}
